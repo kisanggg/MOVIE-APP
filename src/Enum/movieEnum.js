@@ -1,0 +1,5 @@
+export const qualities=["720p " , "1080p" , "2160p" , "3D"]
+export const genres=['all', 'action', 'adventure', 'animation', 'biography', 'comedy', 'crime', 'documentary', 'drama', 'family', 'fantasy', 'film-noir', 'game-show', 'history', 'horror', 'music', 'musical', 'mystery', 'news', 'reality-tv', 'romance', 'sci-fi', 'sport', 'talk-show', 'thriller', 'war', 'western']
+export const rating=['0', '9', '8', '7', '6', '5', '4', '3', '2', '1']
+export const  SortBy =['title', 'year', 'rating', 'seeds', 'downloads', 'like_count', 'date_added']
+export const  OrderBy=['asc', 'desc']
