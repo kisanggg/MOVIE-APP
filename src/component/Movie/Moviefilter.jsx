@@ -8,20 +8,8 @@ export default function MovieFilter({ filterObject, onOptionChange }) {
   };
  const common="p-2 border-red-400 border-1 rounded-full";
   return (
-    <div className="bg-black g-4 ">
-      <div className="flex p-4 " style={{justifyContent:"end"}}>
-      
-       <img className="  rounded-t-lg  object-cover h-[50px]  w-12 h-12 " src="https://store-images.s-microsoft.com/image/apps.29950.13510798887526641.12d889d8-2449-4d90-ad45-0890b67019df.8a2f93f8-29dc-4130-9f09-b177bf5e6483?w=120" alt="img"></img>
-       </div>
-      <div className="searchWrapper">
-        <span className="text-lime-600">Search Term:</span>
-        <div>
-          <input  className=" p-1 text-sm w-3/4 p-1 border-lg " />
-         
-          <button className="   text-md rounded-md border-2 border-lime-600 text-lime-600">Search</button>
-          
-        </div>
-        <div className="max-w-md m-auto p-10 flex gap-4">
+    <div className="bg-slate-800 g-4 ">
+      <div className="max-w-lg m-auto p-10 flex gap-4">
           <div >
             <span className="search-header-text text-lime-600 p-2">Quality</span>
       <select
@@ -69,7 +57,7 @@ export default function MovieFilter({ filterObject, onOptionChange }) {
         <span className="text-lime-600 p-2 ">Sort By</span>
       <select
        className={common}
-        name={"Sort By"}
+        name={"SortBy"}
         onChange={(e) => {
           handleChange(e);
         }}
@@ -83,7 +71,7 @@ export default function MovieFilter({ filterObject, onOptionChange }) {
         <span className="text-lime-600 ">Order By</span>
       <select
       className={common}
-        name={"Order By"}
+        name={"OrderBy"}
         onChange={(e) => {
           handleChange(e);
         }}
@@ -94,7 +82,7 @@ export default function MovieFilter({ filterObject, onOptionChange }) {
       </select>
       </div>
       </div>
-    </div>
+    
     </div>
   );
 }

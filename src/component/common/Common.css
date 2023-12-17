@@ -1,0 +1,19 @@
+.searchWrapper {
+    background-color: #202939;
+    text-align: center;
+    padding: 10px;
+   
+ }    
+ button{
+    border: solid ;
+    border-color: rgb(1, 16, 7);
+    background-color: rgb(7, 129, 7);
+    color: aliceblue;
+    border-radius: solid 50px rgb(1, 16, 7);
+    
+  }
+input{
+    border: solid;
+    border-color: rgb(1, 16, 7);
+    width:300px;
+   }

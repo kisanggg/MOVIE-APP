@@ -21,7 +21,7 @@ import React, { useEffect } from "react";
         flex w-10 h-10 border-[0.5px] border-gray-200 
         rounded-full p-2 hover:bg-gray-50 justify-center 
         text-center ${
-          currentPage === index + 1 ? 'bg-black text-white' : ''
+          currentPage === index + 1 ? 'text-black' : ''
         }`}
         >
         
